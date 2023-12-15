@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Usuarios</title>
+<!-- Importación de Bootstrap y jQuery desde CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <!-- Importación de DataTables y estilos responsive desde CDN -->
+    <link href="https://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/estilo.css" />
+</head>
+<body class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+
+<div class="container mt-4">
+    <table id="tblUsuarios" class="table table-hover table-responsive" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+			   <th>Id</th>
+                <th>Nombre</th>
+				<th>Usuario</th>
+				<th>Correo</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<script>
+    // Tu código JavaScript aquí
+    $(document).ready(function(){
+        getApi();
+    });
+</script>
+
+<!-- Importación de DataTables y funciones JS desde CDN -->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="././js/funciones.js"></script> <!-- Mis funciones en JS -->
+</body>
+</html>
+

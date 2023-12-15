@@ -1,0 +1,29 @@
+/* estilos.css */
+
+/* Centrar la tabla en la pantalla */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos adicionales para la tabla */
+#tblUsuarios {
+    width: 80%; /* Ancho de la tabla */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilos de color para la tabla */
+#tblUsuarios thead {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+}
+
+#tblUsuarios tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+#tblUsuarios tbody tr:hover {
+    background-color: #cce5ff; /* Color de fondo al pasar el ratón sobre una fila */
+}
