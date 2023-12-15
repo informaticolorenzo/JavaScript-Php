@@ -1,6 +1,7 @@
 # README para API Usuarios
 
 Este repositorio contiene archivos relacionados con una API para recuperar datos de usuarios y mostrarlos en una aplicación web. La API utiliza DataTables para una presentación eficiente de datos.
+He intentado simplificar todo lo posible el código para que sea entendible para todos aquellos que empiezan en este mundo. La función y demás código tiene mucho margen de mejora. La intención de este ejemplo es crear algo con lo que poder partir.
 
 ## Archivos
 
